@@ -19,14 +19,14 @@ import net.minecraft.util.Identifier
 
 object ModBlocks {
     val AMBER_ORE: Block = register(
-        AbstractBlock.Settings.create().strength(0.2f)
+        AbstractBlock.Settings.create().strength(2f)
             .requiresTool().sounds(BlockSoundGroup.STONE),
         "amber_ore",
         true
     )
 
     val DEEPSLATE_AMBER_ORE: Block = register(
-        AbstractBlock.Settings.create().strength(0.5f)
+        AbstractBlock.Settings.create().strength(5f)
             .requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
         "deepslate_amber_ore",
         true
